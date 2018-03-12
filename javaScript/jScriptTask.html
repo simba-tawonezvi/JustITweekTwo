@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+	
+	
+	
+	
+	
+	</head>
+
+<body>
+	
+<!--	Collect 2 number values from a user and display the sum of the two values on the webpage-->
+	
+	<p> Please enter 2 numbers below</p>
+	<form>
+	<input type="number" id="input1" />
+	<input type="number" id="input2" />
+	</form>
+	<div><button id="button1"> Some of two numbers </button></div>
+	
+	<div id="demo"></div>
+	
+	</body>
+
+<script>
+	
+	document.getElementById("button1").onclick = function() {
+		
+		var inputA=document.getElementById("input1").value;
+		var inputB=document.getElementById("input2").value;
+		var total= parseInt(inputA)+parseInt(inputB);
+		document.getElementById("demo").innerHTML= total;
+		
+		
+}
+	
+	
+	</script>
+
+
+
+
+
+
+
+
+</html>
